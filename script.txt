@@ -1,0 +1,16 @@
+-- CRIANDO O BANCO DE DADOS 	
+create database dbsys;
+
+-- USANDO O BANCO DE DADOS
+use dbsys;
+
+-- CRIANDO AS TABELAS DO BANCO
+create table Usuario(
+	Id int primary key auto_increment,
+    Nome varchar(50) not null,
+    Email varchar(50) not null,
+    Senha varchar(50) not null
+);
+
+-- CONSULTANDO A(S) TABELA(S) DO BANCO
+select * from Usuario;
