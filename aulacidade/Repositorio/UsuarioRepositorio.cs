@@ -1,5 +1,6 @@
 ﻿using aulacidade.Models;
 
+
 namespace aulacidade.Repositorio
 {
     public class UsuarioRepositorio

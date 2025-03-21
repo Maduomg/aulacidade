@@ -3,8 +3,7 @@ using System.Data;
 
 namespace aulacidade.Repositorio
 {
-    public class Conexao
-    {
+    
         public class Conexao : IDisposable
         {
 
@@ -33,4 +32,4 @@ namespace aulacidade.Repositorio
 
     }
 
-}
+
